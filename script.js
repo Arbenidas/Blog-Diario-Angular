@@ -2,7 +2,7 @@
 const diaryEntries = [
   {
     id: "entrada-1",
-    date: "2024-01-15",
+    date: "2025-06-30",
     title: "Un nuevo comienzo",
     preview:
       "Hoy decidí crear este espacio especial para ti. Cada palabra que escriba aquí será un pedacito de mi corazón que quiero compartir contigo...",
@@ -11,19 +11,19 @@ const diaryEntries = [
   },
   {
     id: "entrada-2",
-    date: "2024-01-14",
+    date: "2025-06-31",
     title: "Pensamientos de medianoche",
     preview:
-      "El amor no se mira, se siente. No se explica, se vive. No se dice, se demuestra. Esta frase me recordó a nosotros...",
+      "Son las 12:12 AM y no puedo dormir. No porque esté preocupado o ansioso, sino porque mi mente está llena de ti....",
     mood: "romantic",
     slug: "pensamientos-de-medianoche",
   },
   {
     id: "entrada-3",
-    date: "2024-01-13",
-    title: "Pequeños momentos",
+    date: "2025-07-1",
+    title: "Feliz cumpleaños mi niña bella",
     preview:
-      "Hoy mientras tomaba café, recordé esa vez que nos quedamos despiertos hasta tarde hablando de nuestros sueños...",
+      "Hace relatvamente poco estabamos hablando mi vida y me siento feliz de ser la primera persona que te felicitara en tu cumpleaños...",
     mood: "nostalgic",
     slug: "pequenos-momentos",
   },
