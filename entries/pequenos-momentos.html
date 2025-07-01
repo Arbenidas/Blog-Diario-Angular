@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pequeños momentos - Mi Diario Para Ti</title>
+    <link rel="stylesheet" href="../styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Georgia:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container entry-page">
+        <nav class="entry-navigation">
+            <div class="nav-buttons">
+                <a href="../index.html" class="nav-button">
+                    <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <line x1="19" y1="12" x2="5" y2="12"></line>
+                        <polyline points="12,19 5,12 12,5"></polyline>
+                    </svg>
+                    Volver al diario
+                </a>
+                <a href="../index.html" class="nav-button">
+                    <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+                        <polyline points="9,22 9,12 15,12 15,22"></polyline>
+                    </svg>
+                </a>
+            </div>
+        </nav>
+
+        <article class="entry-article">
+            <header class="entry-header">
+                <div class="entry-meta">
+                    <div class="entry-date">
+                        <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M8 2v4m8-4v4M3 10h18M5 4h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2z"></path>
+                        </svg>
+                        <span>Sábado, 13 de enero de 2024</span>
+                    </div>
+                    <svg class="mood-icon mood-nostalgic" viewBox="0 0 24 24" fill="currentColor">
+                        <polygon points="12,2 15,9 22,9 17,14 19,22 12,18 5,22 7,14 2,9 9,9"></polygon>
+                    </svg>
+                </div>
+                <h1 class="entry-title">Pequeños momentos</h1>
+            </header>
+
+            <div class="entry-content">
+                <p>Hoy mientras tomaba mi café matutino, de repente me vino a la mente ese momento perfecto que vivimos hace unas semanas.</p>
+
+                <p>¿Te acuerdas? Nos quedamos despiertos hasta muy tarde, hablando de nuestros sueños, de lo que queremos hacer juntos, de esos planes locos que solo tienen sentido cuando los compartes con la persona correcta.</p>
+
+                <p>No había nada extraordinario en esa noche. No era una fecha especial, no había una ocasión particular. Pero algo en la forma en que la luz de la luna entraba por la ventana, en cómo tu voz sonaba más suave de lo usual, en la manera en que el tiempo parecía haberse detenido solo para nosotros... hizo que ese momento se grabara para siempre en mi memoria.</p>
+
+                <p>Me di cuenta de que la felicidad no siempre llega en grandes eventos o celebraciones. A veces, la felicidad más pura se encuentra en estos pequeños momentos que compartimos sin darnos cuenta de lo especiales que son hasta que los recordamos después.</p>
+
+                <p>Hoy quiero atesorar más momentos como ese. Quiero estar más presente, más consciente de la magia que creamos juntos en lo cotidiano.</p>
+
+                <p>Porque al final del día, son estos pequeños momentos los que construyen nuestra historia de amor.</p>
+
+                <p><strong>Te amo en lo grande y en lo pequeño 💕</strong></p>
+            </div>
+
+            <footer class="entry-footer">
+                <div class="entry-signature">
+                    <span>Escrito con amor especialmente para ti</span>
+                    <svg class="heart-small" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+                    </svg>
+                </div>
+            </footer>
+        </article>
+
+        <div class="bottom-navigation">
+            <a href="../index.html" class="bottom-nav-button">
+                <svg class="nav-icon" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+                </svg>
+                Ver más entradas del diario
+            </a>
+        </div>
+    </div>
+
+    <div class="page-transition-overlay" id="pageOverlay">
+        <div class="transition-content">
+            <svg class="transition-heart" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+            </svg>
+            <p class="transition-text">Abriendo tu mensaje...</p>
+        </div>
+    </div>
+
+    <script src="../script.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            initEntryPage();
+        });
+    </script>
+</body>
+</html>

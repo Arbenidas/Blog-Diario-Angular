@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Diario Para Ti</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Georgia:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <!-- Header del diario -->
+        <header class="diary-header">
+            <div class="header-icons">
+                <svg class="book-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                    <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+                    <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+                </svg>
+                <div class="heart-container">
+                    <svg class="heart-icon" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+                    </svg>
+                    <svg class="sparkle-icon" viewBox="0 0 24 24" fill="currentColor">
+                        <polygon points="12,2 15,9 22,9 17,14 19,22 12,18 5,22 7,14 2,9 9,9"></polygon>
+                    </svg>
+                </div>
+            </div>
+            
+            <h1 class="main-title">Mi Diario Para Ti</h1>
+            
+            <p class="subtitle">
+                Un rincón íntimo donde cada pensamiento, cada frase y cada latido de mi corazón 
+                está dedicado especialmente para la persona que ilumina mi mundo
+            </p>
+            
+            <div class="title-decoration">
+                <div class="decoration-line"></div>
+                <svg class="decoration-heart" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+                </svg>
+                <div class="decoration-line"></div>
+            </div>
+        </header>
+
+        <!-- Grid de entradas -->
+        <div class="entries-grid" id="entriesGrid">
+            <!-- Las entradas se cargarán dinámicamente -->
+        </div>
+
+        <!-- Footer -->
+        <footer class="diary-footer">
+            <p>"Cada página de este diario está escrita con amor para ti"</p>
+        </footer>
+    </div>
+
+    <!-- Overlay de animación -->
+    <div class="page-transition-overlay" id="pageOverlay">
+        <div class="transition-content">
+            <svg class="transition-heart" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+            </svg>
+            <p class="transition-text">Abriendo tu mensaje...</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

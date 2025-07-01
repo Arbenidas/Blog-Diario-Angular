@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Un nuevo comienzo - Mi Diario Para Ti</title>
+    <link rel="stylesheet" href="../styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Georgia:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container entry-page">
+        <!-- Navegación -->
+        <nav class="entry-navigation">
+            <div class="nav-buttons">
+                <a href="../index.html" class="nav-button">
+                    <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <line x1="19" y1="12" x2="5" y2="12"></line>
+                        <polyline points="12,19 5,12 12,5"></polyline>
+                    </svg>
+                    Volver al diario
+                </a>
+                <a href="../index.html" class="nav-button">
+                    <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+                        <polyline points="9,22 9,12 15,12 15,22"></polyline>
+                    </svg>
+                </a>
+            </div>
+        </nav>
+
+        <!-- Contenido de la entrada -->
+        <article class="entry-article">
+            <header class="entry-header">
+                <div class="entry-meta">
+                    <div class="entry-date">
+                        <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M8 2v4m8-4v4M3 10h18M5 4h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2z"></path>
+                        </svg>
+                        <span>Lunes, 15 de enero de 2024</span>
+                    </div>
+                    <svg class="mood-icon mood-hopeful" viewBox="0 0 24 24" fill="currentColor">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </div>
+                <h1 class="entry-title">Un nuevo comienzo</h1>
+            </header>
+
+            <div class="entry-content">
+                <p>Hoy decidí crear este espacio especial para ti. Cada palabra que escriba aquí será un pedacito de mi corazón que quiero compartir contigo.</p>
+
+                <p>Mientras escribo estas líneas, no puedo evitar sonreír pensando en tu reacción cuando leas esto. Espero que cada vez que abras una de estas páginas, sientas todo el amor que tengo por ti, como si fuera la primera vez.</p>
+
+                <p>Este diario será nuestro secreto, un lugar donde podré dejarte mensajes, pensamientos y todas esas cosas que a veces no sé cómo decirte en persona, pero que mi corazón necesita expresar.</p>
+
+                <p>Cada entrada será como una carta de amor, pero diferente. Será como si estuviéramos sentados juntos, compartiendo un café, y yo te contara todo lo que pasa por mi mente cuando pienso en ti.</p>
+
+                <p>Que este sea el primero de muchos momentos que compartiremos a través de estas páginas digitales, pero con sentimientos muy reales.</p>
+
+                <p><strong>Con todo mi amor,<br>Tu persona especial ❤️</strong></p>
+            </div>
+
+            <footer class="entry-footer">
+                <div class="entry-signature">
+                    <span>Escrito con amor especialmente para ti</span>
+                    <svg class="heart-small" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+                    </svg>
+                </div>
+            </footer>
+        </article>
+
+        <!-- Navegación inferior -->
+        <div class="bottom-navigation">
+            <a href="../index.html" class="bottom-nav-button">
+                <svg class="nav-icon" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+                </svg>
+                Ver más entradas del diario
+            </a>
+        </div>
+    </div>
+
+    <!-- Overlay de animación -->
+    <div class="page-transition-overlay" id="pageOverlay">
+        <div class="transition-content">
+            <svg class="transition-heart" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+            </svg>
+            <p class="transition-text">Abriendo tu mensaje...</p>
+        </div>
+    </div>
+
+    <script src="../script.js"></script>
+    <script>
+        // Inicializar página de entrada
+        document.addEventListener('DOMContentLoaded', () => {
+            initEntryPage();
+        });
+    </script>
+</body>
+</html>
