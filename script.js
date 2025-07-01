@@ -1,33 +1,33 @@
 // Datos de las entradas del diario
-const diaryEntries = [
-  {
-    id: "entrada-1",
-    date: "2025-06-30",
-    title: "Un nuevo comienzo",
-    preview:
-      "Hoy decidí crear este espacio especial para ti. Cada palabra que escriba aquí será un pedacito de mi corazón que quiero compartir contigo...",
-    mood: "hopeful",
-    slug: "un-nuevo-comienzo",
-  },
-  {
-    id: "entrada-2",
-    date: "2025-06-31",
-    title: "Pensamientos de medianoche",
-    preview:
-      "Son las 12:12 AM y no puedo dormir. No porque esté preocupado o ansioso, sino porque mi mente está llena de ti....",
-    mood: "romantic",
-    slug: "pensamientos-de-medianoche",
-  },
-  {
-    id: "entrada-3",
-    date: "2025-07-1",
-    title: "Feliz cumpleaños mi niña bella",
-    preview:
-      "Hace relatvamente poco estabamos hablando mi vida y me siento feliz de ser la primera persona que te felicitara en tu cumpleaños...",
-    mood: "nostalgic",
-    slug: "pequenos-momentos",
-  },
-]
+// const diaryEntries = [
+//   {
+//     id: "entrada-1",
+//     date: "2025-06-30",
+//     title: "Un nuevo comienzo",
+//     preview:
+//       "Hoy decidí crear este espacio especial para ti. Cada palabra que escriba aquí será un pedacito de mi corazón que quiero compartir contigo...",
+//     mood: "hopeful",
+//     slug: "un-nuevo-comienzo",
+//   },
+//   {
+//     id: "entrada-2",
+//     date: "2025-06-31",
+//     title: "Pensamientos de medianoche",
+//     preview:
+//       "Son las 12:12 AM y no puedo dormir. No porque esté preocupado o ansioso, sino porque mi mente está llena de ti....",
+//     mood: "romantic",
+//     slug: "pensamientos-de-medianoche",
+//   },
+//   {
+//     id: "entrada-3",
+//     date: "2025-07-1",
+//     title: "Feliz cumpleaños mi niña bella",
+//     preview:
+//       "Hace relatvamente poco estabamos hablando mi vida y me siento feliz de ser la primera persona que te felicitara en tu cumpleaños...",
+//     mood: "nostalgic",
+//     slug: "pequenos-momentos",
+//   },
+// ]
 
 // Iconos SVG
 const icons = {
