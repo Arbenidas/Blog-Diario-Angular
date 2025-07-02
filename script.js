@@ -27,6 +27,15 @@ const diaryEntries = [
     mood: "nostalgic",
     slug: "pequenos-momentos",
   },
+  {
+    id: "entrada-4",
+    date: "2025-07-2",
+    title: "Amar sin limites",
+    preview:
+      "Me siento agradecido con Dios primeramente de que este dia despertaras sana y pudiera ver tu carita hermosa literalmente al despertar con una llamada...",
+    mood: "romantic",
+    slug: "Amar-sin-limites",
+  },
 ]
 
 // Iconos SVG
