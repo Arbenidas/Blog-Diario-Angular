@@ -36,6 +36,15 @@ const diaryEntries = [
     mood: "romantic",
     slug: "Amar-sin-limites",
   },
+    {
+    id: "entrada-5",
+    date: "2025-07-3",
+    title: "Tu cuerpo y tu dulzura",
+    preview:
+      "Tenme Paciencia, Estoy aprendiendo,cómo cuidarte...",
+    mood: "romantic",
+    slug: "tu-cuerpo-y-dulzura",
+  },
 ]
 
 // Iconos SVG
