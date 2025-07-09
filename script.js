@@ -45,6 +45,42 @@ const diaryEntries = [
     mood: "romantic",
     slug: "tu-cuerpo-y-dulzura",
   },
+  {
+    id: "entrada-6",
+    date: "2025-07-4",
+    title: "Hoy mañana y siempre",
+    preview:
+      "Mi vida hermosa cada dia me siento mas contento de saber que el amor...",
+    mood: "hopeful",
+    slug: "hoy-mañana-y-siempre",
+  },
+  {
+    id: "entrada-7",
+    date: "2025-07-5",
+    title: "Verte me llena de amor",
+    preview:
+      "Hola mi vida hermosa... Podemos tener nuestros altos y bajos corazón y es normal...",
+    mood: "thoughtful",
+    slug: "verte-llena-de-amor",
+  },
+  {
+    id: "entrada-8",
+    date: "2025-07-6",
+    title: "Mini reflexion",
+    preview:
+      "Mi vida hermosa, se que queremos todo ya y hay muchas cosas que aun no hemos...",
+    mood: "hopeful",
+    slug: "mini-reflexion",
+  },
+  {
+    id: "entrada-9",
+    date: "2025-07-7",
+    title: "Tú, yo y mini Kat",
+    preview:
+      "Mi vida antes me aterraba la idea de tener un mini de nosotros...",
+    mood: "romantic",
+    slug: "tu-yo-minikat",
+  },
 ]
 
 // Iconos SVG
