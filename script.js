@@ -94,7 +94,7 @@ const diaryEntries = [
   {
     id: "entrada-11",
     date: "2025-07-9",
-    title: "El mundo cruel y nosotros",
+    title: "Nuestros dias malos",
     preview:
       "Mi vida hermosa, Te quiero lo suficiente como para estar en tus dias malos...",
     mood: "romantic",
