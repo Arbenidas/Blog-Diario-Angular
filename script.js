@@ -81,6 +81,25 @@ const diaryEntries = [
     mood: "romantic",
     slug: "tu-yo-minikat",
   },
+  {
+    id: "entrada-10",
+    date: "2025-07-8",
+    title: "El mundo cruel y nosotros",
+    preview:
+      "Durante el tiempo que estuvimos separados mi amor, llore mucho y tenia tantas ganas...",
+    mood: "romantic",
+    slug: "el-mundo-cruel-y-nosotros",
+  },
+
+  {
+    id: "entrada-11",
+    date: "2025-07-9",
+    title: "El mundo cruel y nosotros",
+    preview:
+      "Mi vida hermosa, Te quiero lo suficiente como para estar en tus dias malos...",
+    mood: "romantic",
+    slug: "nuestros-dias-malos",
+  },
 ]
 
 // Iconos SVG
@@ -136,11 +155,11 @@ function createDiaryCard(entry, index) {
                 ${getMoodIcon(entry.mood)}
             </svg>
         </div>
-        
+
         <h3 class="card-title">${entry.title}</h3>
-        
+
         <p class="card-preview">${entry.preview}</p>
-        
+
         <div class="card-footer">
             <div class="card-signature">
                 <svg class="heart-small" viewBox="0 0 24 24" fill="currentColor">
